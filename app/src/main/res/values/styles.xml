@@ -1,0 +1,86 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="android:windowBackground">@color/primary</item>
+
+        <item name="colorControlNormal">@color/iron</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
+        <item name="android:textColorHint">@color/iron</item>
+
+        <item name="colorButtonNormal">@color/primary_darker</item>
+        <item name="android:colorButtonNormal">@color/primary_darker</item>
+    </style>
+
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorPrimary">@color/iron</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+
+    <style name="sign_button">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">48dp</item>
+        <item name="android:paddingRight">48dp</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:background">@drawable/round_button</item>
+    </style>
+
+    <style name="sign_input">
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:background">@drawable/round_rectangle</item>
+    </style>
+
+    <style name="sign_layout">
+        <item name="android:paddingTop">50dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+    </style>
+
+    <style name="sign_title">
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="AppPageControlStyle">
+        <item name="apc_indicatorSize">@dimen/custom_apc_indicator_size</item>
+        <item name="apc_indicatorDistance">@dimen/custom_apc_indicator_distance</item>
+        <item name="apc_colorCurrentDefault">#ffffffff</item>
+        <item name="apc_colorCurrentPressed">#a7ffeb</item>
+        <item name="apc_colorNormalDefault">#c0d0d0d0</item>
+        <item name="apc_colorNormalPressed">#4db6ac</item>
+    </style>
+
+    <style name="AppPageControlEmphasizedCurrentStyle">
+        <item name="apc_currentIndicatorSize">@dimen/custom_apc_current_indicator_size</item>
+    </style>
+
+    <style name="AppPageControlStyle.Rectangle">
+        <item name="apc_indicatorShape">rectangle</item>
+    </style>
+
+</resources>

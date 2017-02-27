@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- paging control -->
+    <dimen name="custom_apc_indicator_size">6dp</dimen>
+    <dimen name="custom_apc_indicator_distance">6dp</dimen>
+    <dimen name="custom_apc_current_indicator_size">6dp</dimen>
+
+</resources>

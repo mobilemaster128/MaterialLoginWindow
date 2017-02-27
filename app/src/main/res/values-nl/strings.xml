@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ask Fast</string>
+
+    <string name="hello_world">Home Screen</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- common -->
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="next">Next</string>
+
+    <!-- sign up / in-->
+    <string name="namme">Full name</string>
+    <string name="name_hint">enter your full name</string>
+    <string name="password">Password</string>
+    <string name="password_hint">********</string>
+    <string name="email">Email</string>
+    <string name="email_hint">enter your email address</string>
+    <string name="agree">I agree to the Terms of Service and Privacy Policy</string>
+    <string name="already_member"><u>I\'m already a member</u></string>
+
+    <string name="no_member"><u>I\'m not a member yet</u></string>
+
+    <!-- phone -->
+    <string name="phone_title">We need to verify that\r\nyou are human.</string>
+    <string name="phone_content">Please enter your phone number below\,\r\nso we can send you a verification code.</string>
+    <string name="phone">Phone number</string>
+    <string name="phone_hint">enter your phone number</string>
+
+    <!-- verify -->
+    <string name="verify_title">A verification code has\r\nbeen sent to %s</string>
+    <string name="verify_content">If you did not receive a code\,\r\n click the resend code button below</string>
+    <string name="verify_code">Verification code</string>
+    <string name="verify_code_hint">enter your verification code</string>
+    <string name="resend_code"><u>Resend the code</u></string>
+
+    <!-- welcome -->
+    <string name="welcome_title">Thank you for choosing us\,\r\nyour account is ready.</string>
+    <string name="welcome_content">It\'s time to be creative and get your hands dirty\:\)</string>
+
+</resources>

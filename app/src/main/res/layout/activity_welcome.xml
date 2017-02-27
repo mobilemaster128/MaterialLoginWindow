@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rel"
+    android:background="@drawable/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="72dp"
+            style="@style/sign_layout">
+
+            <TextView
+                android:id="@+id/welcome_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_title"
+                android:textSize="24dp"
+                style="@style/sign_title"/>
+
+            <TextView android:id="@+id/welcome_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="48dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:text="@string/welcome_content"
+                android:textSize="14dp"/>
+
+            <!-- Next Button -->
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/sign_button"
+                android:layout_marginTop="36dp"
+                android:text="@string/next"/>
+
+            <com.askfast.demo.PagingControl
+                android:id="@+id/page_control"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/AppPageControlStyle" />
+
+        </LinearLayout>
+    </ScrollView >
+</RelativeLayout>
